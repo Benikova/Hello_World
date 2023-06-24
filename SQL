@@ -1,0 +1,5 @@
+czechia_price AS cp
+JOIN czechia_payroll AS cpay
+    ON YEAR(cp.date_from) = cpay.payroll_year AND
+    cpay.value_type_code = 5958
+    cp.region_code IS NULL
