@@ -17,14 +17,14 @@ elif bohata_retezec == 'ne' or bohata_retezec == 'Ne' or bohata_retezec == 'Nie'
 else:
     print('Nerozumiem!')
 
-if  bohata_retezec and stastna:
+if  bohata_retezec and stastna_retezec:
     # Je bohatá a zároveň štǎstná, ta sa má.
     print('Gratulujem!')
-elif bohata:
+elif bohata_retezec:
     # Je bohatá, ale nie je „bohatá a zároveň šťastná“,
     # takže musí byť len bohatá.
     print('Skus sa viac usmievať.')
-elif stastna:
+elif stastna_retezec:
     # Tu musí byť len šťastná.
     print('Skus menej utrácať.')
 else:
